@@ -71,7 +71,7 @@ class CallNumber
     static function clean($callNumber)
     {
         // Subfield Symbols to Spaces
-        $callNumber = trim(preg_replace('/\$[a-z]|ǂ[a-z]/i', ' ', $callNumber));
+        $callNumber = trim(preg_replace('/\$[a-z]|ǂ[a-z]|\|[a-z]/i', ' ', $callNumber));
         // Prefix
         $callNumber = trim(preg_replace('/^\[QRT\]\s?/i', '', $callNumber));
         // Copy number c1, c.2, c1-2, c.3-4
