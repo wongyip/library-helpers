@@ -1,0 +1,22 @@
+{
+    "name": "wongyip/library-helpers",
+    "description": "Miscellaneous tools for library and book related application development.",
+    "homepage": "https://github.com/wongyip/library-helpers",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wongyip",
+            "email": "wongyip@outlook.com",
+            "homepage": "https://github.com/wongyip"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "wongyip/lc-call-numbers": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wongyip\\LibraryHelpers\\": "src"
+        }
+    }
+}
