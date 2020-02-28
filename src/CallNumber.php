@@ -1,8 +1,11 @@
 <?php namespace Wongyip\LibraryHelpers;
 
-use BCLib\LCCallNumbers\RegExCallNumberParser;
 use BCLib\LCCallNumbers\LCCallNumber;
+use BCLib\LCCallNumbers\RegExCallNumberParser;
 
+/**
+ * @author wongyip@outlook.com
+ */
 class CallNumber
 {
     /**
